@@ -1,5 +1,5 @@
-@media screen and (min-width: 1280px) {
-  .page {
-    background-color: blue;
-  }
+.page {
+  background-color: #2a2c2f;
+  margin: 0 auto;
+  color: #fff;
 }
