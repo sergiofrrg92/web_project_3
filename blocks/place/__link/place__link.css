@@ -1,0 +1,15 @@
+.place__link {
+  margin: 48px 0 0 0;
+  padding: 13px 20px;
+  text-decoration: none;
+  background-color: #0278fe;
+  width: 248px;
+  height: 48px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600p;
+  font-style: normal;
+  line-height: 22px;
+}

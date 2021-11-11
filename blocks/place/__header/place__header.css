@@ -1,0 +1,6 @@
+.place__header {
+  display: flex;
+  width: 80%;
+  margin: auto auto 48px auto;
+  align-items: flex-end;
+}
