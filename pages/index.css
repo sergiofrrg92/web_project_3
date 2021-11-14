@@ -20,6 +20,7 @@
 @import url(../blocks/place/__artist-info/place__artist-info.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__content/place__content.css);
+@import url(../blocks/place/__photo-column/place__photo-column.css);
 @import url(../blocks/place/__text-column/place__text-column.css);
 @import url(../blocks/place/__artist-subtitle/place__artist-subtitle.css);
 @import url(../blocks/place/__artist-name/place__artist-name.css);

@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .place__photo-column {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

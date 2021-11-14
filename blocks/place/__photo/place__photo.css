@@ -3,3 +3,11 @@
   max-height: 460px;
   margin-bottom: 48px;
 }
+
+@media (max-width: 768px) {
+  .place__photo {
+    max-width: 340px;
+    max-height: 340px;
+    margin-bottom: 48px;
+  }
+}

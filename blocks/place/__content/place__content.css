@@ -1,12 +1,13 @@
 .place__content {
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  align-items: stretch;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
   .place__content {
-    width: 50%;
+    width: 93%;
     margin: 0;
   }
 }
