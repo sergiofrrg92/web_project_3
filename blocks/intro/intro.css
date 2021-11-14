@@ -2,3 +2,10 @@
   max-width: 785px;
   justify-content: left;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    margin: 0 auto;
+    width: 93%;
+  }
+}

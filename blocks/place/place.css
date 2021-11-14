@@ -1,3 +1,10 @@
 .place {
-  margin-bottom: 80px;
+  margin: 0 auto 80px auto;
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .place {
+    width: 93%;
+  }
 }

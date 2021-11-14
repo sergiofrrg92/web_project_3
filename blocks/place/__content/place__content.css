@@ -1,6 +1,12 @@
 .place__content {
   display: flex;
-  width: 80%;
   justify-content: space-between;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .place__content {
+    width: 50%;
+    margin: 0;
+  }
 }

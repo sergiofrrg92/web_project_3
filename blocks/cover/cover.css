@@ -1,10 +1,16 @@
 .cover {
   background-image: url("../../images/cover/cover__background.jpeg");
   margin: 0 auto;
-  width: 1184px;
+  width: 92.5%;
   height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .cover {
+    width: 100%;
+  }
 }

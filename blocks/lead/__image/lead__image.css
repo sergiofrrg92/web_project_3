@@ -1,7 +1,14 @@
 .lead__image {
-  width: 984px;
-  height: 615px;
+  display: block;
+  width: 77%;
+  max-height: 615px;
   margin: 0 auto;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+}
+
+@media (max-width: 768px) {
+  .lead__image {
+    width: 100%;
+  }
 }
