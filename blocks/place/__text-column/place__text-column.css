@@ -1,3 +1,10 @@
 .place__text-column {
   margin: 0 0 0 40px;
 }
+
+@media (max-width: 768px) {
+  .place__text-column {
+    width: 50%;
+    margin: 0 auto 0 28px;
+  }
+}

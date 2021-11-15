@@ -5,5 +5,14 @@
   font-weight: 900;
   font-style: normal;
   line-height: 96px;
-  width: 460px;
+  width: min(460px, 50%);
+}
+
+@media (max-width: 768px) {
+  .place__title {
+    width: 50%;
+    margin: 0;
+    font-size: 42px;
+    line-height: 46px;
+  }
 }

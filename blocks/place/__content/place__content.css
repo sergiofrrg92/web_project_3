@@ -1,7 +1,6 @@
 .place__content {
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
   margin: 0 auto;
 }
 

@@ -3,3 +3,10 @@
   position: relative;
   width: 456px;
 }
+
+@media (max-width: 768px) {
+  .place__artist {
+    width: 50%;
+    margin: 0;
+  }
+}
