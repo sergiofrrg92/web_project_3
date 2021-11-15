@@ -13,6 +13,7 @@
 
 @media (max-width: 320px) {
   .place__content {
+    width: 100%;
     flex-direction: column;
   }
 }
