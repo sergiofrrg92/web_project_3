@@ -10,3 +10,7 @@
   font-style: normal;
   line-height: 22px;
 }
+
+.cover__link:hover {
+  background-color: #0063d2;
+}
