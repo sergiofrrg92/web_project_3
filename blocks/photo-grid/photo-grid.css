@@ -21,3 +21,15 @@
     grid-gap: 16px;
   }
 }
+
+@media (max-width: 320px) {
+  .photo-grid {
+    max-width: 90%;
+    margin: 0 auto 62px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    justify-items: center;
+    grid-gap: 12px;
+  }
+}
