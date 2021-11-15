@@ -11,6 +11,6 @@
 @media (max-width: 768px) {
   .place__description {
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 163%;
   }
 }
