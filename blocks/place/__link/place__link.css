@@ -12,3 +12,12 @@
   font-style: normal;
   line-height: 22px;
 }
+
+@media (max-width: 320px) {
+  .place__link {
+    text-align: center;
+    padding: 13px 40px;
+    width: 65%;
+    margin: 0 auto;
+  }
+}
