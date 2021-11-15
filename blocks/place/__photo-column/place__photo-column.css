@@ -1,3 +1,9 @@
+@media (min-width: 769px) {
+  .place__photo-column {
+    width: 50%;
+  }
+}
+
 @media (max-width: 768px) {
   .place__photo-column {
     width: 50%;

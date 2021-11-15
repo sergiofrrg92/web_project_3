@@ -1,7 +1,7 @@
 .place__artist {
   margin: 0 0 0 40px;
   position: relative;
-  width: 456px;
+  width: 50%;
 }
 
 @media (max-width: 768px) {
