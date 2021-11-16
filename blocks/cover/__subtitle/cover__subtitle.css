@@ -9,6 +9,12 @@
   margin: 0 0 32px 0;
 }
 
+@media (max-width: 768px) {
+  .cover__subtitle {
+    width: 36.5%;
+  }
+}
+
 @media (max-width: 320px) {
   .cover__subtitle {
     width: 90%;
