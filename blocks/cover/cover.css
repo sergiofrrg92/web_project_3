@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 0;
 }
 
 .cover:hover .cover__overlay {
@@ -16,6 +17,7 @@
   position: absolute;
   background: #2a2c2f;
   opacity: 0.8;
+  z-index: 0;
 }
 
 @media (max-width: 768px) {

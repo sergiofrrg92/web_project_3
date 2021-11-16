@@ -9,6 +9,7 @@
   font-weight: 600;
   font-style: normal;
   line-height: 22px;
+  z-index: 1;
 }
 
 .cover__link:hover {
