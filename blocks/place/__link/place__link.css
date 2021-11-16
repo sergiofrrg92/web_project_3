@@ -13,6 +13,10 @@
   line-height: 22px;
 }
 
+.place__link:hover {
+  background-color: #0063d2;
+}
+
 @media (max-width: 320px) {
   .place__link {
     text-align: center;
