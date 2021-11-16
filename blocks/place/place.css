@@ -14,8 +14,18 @@
 @media (max-width: 768px) {
   .place {
     width: 93%;
+    margin: 0 auto 72px auto;
     grid-template-columns: 340px 1fr;
     grid-template-rows: 92px 340px 1fr;
+    grid-gap: 48px 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .place {
+    width: 93%;
+    grid-template-columns: 280px 1fr;
+    grid-template-rows: 80px 280px 1fr;
     grid-gap: 48px 32px;
   }
 }
