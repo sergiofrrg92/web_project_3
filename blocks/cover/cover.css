@@ -9,6 +9,7 @@
   align-items: center;
   position: relative;
   z-index: 0;
+  background-size: cover;
 }
 
 .cover:hover .cover__overlay {
