@@ -1,19 +1,12 @@
 .place__artist {
-  margin: 0 0 0 40px;
-  position: relative;
-  width: 50%;
-}
-
-@media (max-width: 768px) {
-  .place__artist {
-    width: 50%;
-    margin: 0 0 0 28px;
-  }
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 @media (max-width: 320px) {
   .place__artist {
-    width: 100%;
-    margin: 30px 0 0 0;
+    width: 90%;
+    margin: 0 auto;
   }
 }

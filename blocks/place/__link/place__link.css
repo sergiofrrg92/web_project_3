@@ -1,16 +1,16 @@
 .place__link {
   display: inline-block;
-  margin: 48px 0 0 0;
   padding: 13px 20px;
   text-decoration: none;
   background-color: #0278fe;
   border-radius: 4px;
   color: #fff;
-  font-family: Inter;
   font-size: 18px;
   font-weight: 600;
   font-style: normal;
   line-height: 22px;
+  max-height: 22px;
+  max-width: 208px;
 }
 
 .place__link:hover {
