@@ -17,7 +17,7 @@
     width: 93%;
     margin: 0 auto 72px auto;
     grid-template-columns: 340px 1fr;
-    grid-template-rows: 92px 340px 1fr;
+    grid-template-rows: 46px 340px 1fr;
     grid-gap: 48px 32px;
   }
 }

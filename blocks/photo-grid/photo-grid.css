@@ -11,6 +11,7 @@
 @media (max-width: 768px) {
   .photo-grid {
     max-width: 95%;
+    margin: 0 auto 88px auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
