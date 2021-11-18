@@ -23,5 +23,6 @@
     padding: 13px 40px;
     width: 65%;
     margin: 0 auto;
+    max-height:fit-content;
   }
 }
