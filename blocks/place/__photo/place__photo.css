@@ -7,4 +7,10 @@
   .place__photo {
     min-height: 340px;
   }
+
+  @media (max-width: 510px) {
+    .place__photo {
+      min-height: 40%;
+    }
+  }
 }

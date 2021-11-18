@@ -16,6 +16,13 @@
   margin-bottom: 92px;
 }
 
+@media (max-width: 1100px) {
+  .place {
+    grid-template-columns: 60% 1fr;
+    grid-template-rows: 152px fit-content(340px) 1fr;
+  }
+}
+
 @media (max-width: 768px) {
   .place {
     width: 93%;
@@ -26,10 +33,10 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .place {
-    grid-template-columns: 248px 1fr;
-    grid-template-rows: 80px 248px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px fit-content(248px) 1fr;
   }
 }
 
