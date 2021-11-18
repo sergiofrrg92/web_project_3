@@ -12,6 +12,10 @@
     "button text";
 }
 
+.place:last-of-type {
+  margin-bottom: 92px;
+}
+
 @media (max-width: 768px) {
   .place {
     width: 93%;
@@ -43,5 +47,8 @@
       "text"
       "button";
     grid-gap: 30px;
+  }
+  .place:last-of-type {
+    margin-bottom: 64px;
   }
 }
