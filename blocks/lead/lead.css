@@ -1,10 +1,10 @@
 .lead {
-  margin: 90px auto 118px auto;
+  margin: 90px auto 0 auto;
   max-width: 984px;
 }
 
 @media (max-width: 320px) {
   .lead {
-    margin: 50px auto 90px auto;
+    margin: 50px auto 0 auto;
   }
 }
