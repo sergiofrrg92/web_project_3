@@ -1,10 +1,10 @@
 .place__photo {
   max-width: 100%;
-  max-height: 460px;
+  min-height: 460px;
 }
 
 @media (max-width: 768px) {
   .place__photo {
-    max-height: 340px;
+    min-height: 340px;
   }
 }
