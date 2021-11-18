@@ -1,7 +1,8 @@
 .place__artist {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 @media (max-width: 320px) {
