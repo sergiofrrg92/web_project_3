@@ -1,7 +1,7 @@
 .cover {
   background-image: url("../../images/cover/cover__background.jpeg");
   margin: 0 auto;
-  width: 92.5%;
+  max-width: 1184px;
   min-height: 740px;
   display: flex;
   flex-direction: column;

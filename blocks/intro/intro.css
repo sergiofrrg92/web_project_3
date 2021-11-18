@@ -1,7 +1,7 @@
 .intro {
   max-width: 785px;
   justify-content: left;
-  margin: 92px auto 118px 148px;
+  margin: 92px auto 118px 0;
 }
 
 @media (max-width: 768px) {
