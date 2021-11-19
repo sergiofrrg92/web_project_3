@@ -1,5 +1,5 @@
 .intro__quote {
-  max-width: 720px;
+  max-width: 720px; /*as in 1280 viewport on figma as far as I'm seeing right now!*/
   margin: 0 0 10px 0;
   font-size: 24px;
   font-weight: normal;

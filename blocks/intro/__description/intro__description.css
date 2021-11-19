@@ -1,5 +1,5 @@
 .intro__description {
-  max-width: 720px;
+  max-width: 720px; /*as in 1280 viewport on figma as far as I'm seeing right now!*/
   margin: 32px 0 0 0;
   font-size: 16px;
   font-weight: normal;
