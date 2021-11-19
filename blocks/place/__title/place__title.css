@@ -1,4 +1,7 @@
 .place__title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
   margin: 0;
   font-size: 72px;
   font-weight: 900;
@@ -9,11 +12,7 @@
 
 @media (max-width: 768px) {
   .place__title {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
     width: 100%;
-    margin: 0;
     font-size: 42px;
     line-height: 46px;
   }
