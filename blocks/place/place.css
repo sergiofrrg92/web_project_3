@@ -18,7 +18,7 @@
 
 @media (max-width: 1100px) {
   .place {
-    grid-template-columns: 60% 1fr;
+    grid-template-columns: 55% 1fr;
     grid-template-rows: 152px fit-content(340px) 1fr;
   }
 }
@@ -28,16 +28,17 @@
     width: 93%;
     margin: 0 auto 72px auto;
     grid-template-columns: 340px 1fr;
-    grid-template-rows: 46px 340px 1fr;
+    grid-template-rows: fit-content(46px) 340px 1fr;
     grid-gap: 48px 32px;
   }
 }
 
 @media (max-width: 600px) {
+  /*To avoid the three word lines and / or tiny photos*/
   .place {
     margin: 0 auto 50px auto;
     grid-template-columns: 1fr;
-    grid-template-rows: fit-content(46px) 67px 320px 1fr 48px;
+    grid-template-rows: fit-content(46px) 67px fit-content(340px) 1fr 48px;
     grid-template-areas:
       "title"
       "artist"
@@ -55,6 +56,6 @@
 @media (max-width: 320px) {
   .place {
     width: 100%;
-    grid-template-rows: 35px 67px fit-content(320px) 1fr 48px;
+    grid-template-rows: fit-content(35px) fit-content(80px) fit-content(320px) 1fr 48px;
   }
 }
