@@ -33,10 +33,30 @@
   }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .place {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 80px fit-content(248px) 1fr;
+  }
+} */
+
+@media (max-width: 600px) {
+  .place {
+    margin: 0 auto 50px auto;
+    width: 93%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 46px 67px 320px 1fr 48px;
+    grid-template-areas:
+      "title"
+      "artist"
+      "photo"
+      "text"
+      "text"
+      "button";
+    grid-gap: 30px;
+  }
+  .place:last-of-type {
+    margin-bottom: 64px;
   }
 }
 
@@ -45,7 +65,7 @@
     margin: 0 auto 50px auto;
     width: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: 35px 67px 320px 1fr 48px;
+    grid-template-rows: 35px 67px fit-content(320px) 1fr 48px;
     grid-template-areas:
       "title"
       "artist"
